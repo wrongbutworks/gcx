@@ -9,7 +9,6 @@
   consulted. Reads require the Viewer role; mutations require the Grafana Admin
   role. No Cloud access-policy token is required.
 
-
 ## v0.4.3 (2026-07-01)
 
 - Query: fall back to `/api/ds/query` on any non-200 from the k8s query API
